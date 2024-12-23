@@ -4,4 +4,4 @@ for item in LIST:
     if (LIST.index(item) % 2 == 0):
         value = value + item
 
-print(value * LIST[LIST.__len__() - 1])
+print(value * LIST[len(LIST) - 1])
